@@ -1,0 +1,92 @@
+# Default language if you have a multi-language setup
+DefaultContentLanguage = "bn"
+
+baseURL = "https://blog.palashbauri.in"
+
+theme = "plamp"
+
+pygmentsUseClasses = true
+
+# Number of posts shown per page (dafault: 10)
+paginate = 4
+disableHugoGeneratorInject = true
+enableEmoji = true
+enableInlineShortcodes = true
+
+# Language sections
+[languages]
+    [languages.bn]
+        contentDir = "content/bn"
+        languageName = "বাংলা"
+        languageCode = "bn"
+        title = "পলাশ বাউরির অভিযান"
+        description = "পলাশ বাউরির লেখা কিছু বিজ্ঞান , মহাকাশ , কম্পিউটার সম্পর্কিত প্রবন্ধ নিবন্ধ!"
+        weight = 1
+    [languages.en]
+        contentDir = "content/en"
+        languageName = "English"
+        languageCode = "en"
+        title = "Adventure of Palash Bauri"
+        description = "Articles on Science, Space and Computer and or General subjects written by Palash Bauri"
+        weight = 2
+    
+
+# Menu elements
+# [[menu.main]]
+#    identifier = "about"
+#    name = "About"
+#    url = "/about"
+#    weight = 8
+
+
+# Enable only tags taxonomy
+[taxonomies]
+    tag = "tags"
+
+[params]
+    copyright = "Palash Bauri" # Name shown on footer copyright
+    themeColor = "#333" # Theme color displayed on mobile browsers
+
+    # Default AMP components for the whole site
+    ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker"]
+
+    # Google Analytics code
+    # googleAnalytics = "UA-xxxxxxxxx-x"
+
+    # Adsense publisher code
+    #adsensePublisher = "ca-pub-123456789"
+
+    # Comments Iframe URL
+    #commentsEmbedUrl = "https://comments.example.com"
+
+    # Social sites for metatags
+    facebookSite = "bauripalash"
+    twitterSite = "@bauripalash"
+
+    # Structured data elements
+    socialProfiles = ["https://twitter.com/bauripalash","https://www.linkedin.com/in/bauripalash/","https://github.com/bauripalash"]
+
+    alternatePageName = "Adventure of Palash Bauri"
+    organizationLogo = "/android-chrome-192x192.png"
+    organizationName = "Palash Bauri"
+
+    publisherName = "Palash Bauri"
+    publisherLogo = "/pb.png"
+    publisherLogoWidth = 600
+    publisherLogoHeight = 60
+
+    authorName = "Palash Bauri"
+    authorHomepage = "/"
+    authorImage = "/android-chrome-192x192.png"
+    authorBio = "I am Palash Bauri. I am a Student , Programmer , Inventor , Writer."
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+    [markup.highlight]
+        guessSyntax = true
+        style = "rainbow_dash"
+
+
+
