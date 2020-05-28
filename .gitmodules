@@ -1,0 +1,3 @@
+[submodule "themes/plamp"]
+	path = themes/plamp
+	url = git@github.com:bauripalash/plamp.git
