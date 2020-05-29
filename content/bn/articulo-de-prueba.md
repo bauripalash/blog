@@ -12,7 +12,7 @@ tags = [
 ]
 
 [amp]
-    elements = ["amp-mathml" , "amp-iframe"]
+    elements = []
 
 keywords = ['hugo', 'markdown', 'example']
 

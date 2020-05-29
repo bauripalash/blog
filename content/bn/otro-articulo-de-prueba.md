@@ -13,7 +13,7 @@ tags = [
 ]
 
 [amp]
-    elements = ["amp-mathml" , "amp-anim" , "amp-audio" , "amp-video" , "amp-soundcloud" , "amp-facebook" , "amp-instagram"  , "amp-youtube" , "amp-twitter" , "amp-reddit" , "amp-pinterest"]
+    elements = []
 
 keywords = ['hugo', 'markdown', 'example']
 
