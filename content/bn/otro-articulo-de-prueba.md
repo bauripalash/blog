@@ -1,52 +1,247 @@
 +++
 draft = false
-date = "2019-10-16T12:33:32+02:00"
-publishdate = "2019-10-16T12:33:32+02:00"
+date = "2019-12-23T12:09:32+02:00"
+publishdate = "2019-12-23T12:09:32+02:00"
 
-title = "Otro artículo de prueba"
+title = "Markdown Syntax Guide2"
+description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+summary = "This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme."
 
-description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet, mauris sed tincidunt dignissim, enim justo suscipit dui, vitae pharetra justo nulla at neque. Ut eu nulla in nisi dapibus efficitur. Donec sollicitudin ac arcu ac malesuada. Cras sapien orci, malesuada id ultrices ac, sodales sed est."
-
-summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet, mauris sed tincidunt dignissim, enim justo suscipit dui, vitae pharetra justo nulla at neque. Ut eu nulla in nisi dapibus efficitur. Donec sollicitudin ac arcu ac malesuada. Cras sapien orci, malesuada id ultrices ac, sodales sed est."
-
-tags = ['Etiqueta']
-
-keywords = ['amperage', 'prueba', 'artículo']
+tags = [
+    "markdown",
+    "amperage"
+]
 
 [amp]
-    elements = []
+    elements = ["amp-mathml" , "amp-anim" , "amp-audio" , "amp-video" , "amp-soundcloud" , "amp-facebook" , "amp-instagram"  , "amp-youtube" , "amp-twitter" , "amp-reddit" , "amp-pinterest"]
+
+keywords = ['hugo', 'markdown', 'example']
+
+[image]
+    src = "/images/share-banner.png"  
 
 [author]
     name = "Asur"
-    homepage = "https://asur.dev"
+    homepage = "/"
 
 [twitter]
-    site = "@example"
+    site = "@asurbernardo"
 
 [sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+    changefreq = "monthly"
+    priority = 0.5
+    filename = "sitemap.xml"
 +++
 
-# Otro artículo de prueba
+{{< under-title >}}
 
-{{% under-title %}}
+<!-- {{<pinterest url="https://www.pinterest.com/pin/99360735500167749/">}} -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet, mauris sed tincidunt dignissim, enim justo suscipit dui, vitae pharetra justo nulla at neque. Ut eu nulla in nisi dapibus efficitur. Donec sollicitudin ac arcu ac malesuada. Cras sapien orci, malesuada id ultrices ac, sodales sed est. Integer orci diam, hendrerit sed tellus id, tempor semper enim. Donec enim nunc, rhoncus in tincidunt sed, dictum non risus. Proin scelerisque sit amet nulla a laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut fermentum justo. Duis viverra a dolor nec egestas. Fusce cursus vel nunc eu imperdiet. Nullam luctus felis magna, at feugiat dui ultrices nec. Etiam rutrum odio tellus, at molestie dui condimentum id. Maecenas feugiat dui consectetur ex pellentesque venenatis. In diam urna, hendrerit vitae est eu, laoreet rhoncus lectus. Nullam lorem tortor, commodo a purus dictum, vulputate pretium nisi.
+
+<!-- {{<twitter tweet="885634330868850689">}} -->
+
+
+<!-- {{< yt video="eQWTLTmr6AE" width="480"
+  height="270"  >}} -->
+
+<!-- {{<math>}}
+\[f(a) = \frac{1}{2\pi i} \oint\frac{f(z)}{z-a}dz\]
+{{</math>}} -->
+
+
+<!-- {{< ig id="B__33wSF0LE" height="500" width="500" caption="true">}} -->
+
+<!-- {{< iframe sandbox="allow-scripts allow-same-origin" src="https://palashbauri.in" height="500" width="500">}} -->
+
+<!-- {{< fb href="https://www.facebook.com/ParksCanada/posts/1712989015384373" height="500" width="600" locale="bn_IN">}}
+
+{{< fb href="https://www.facebook.com/nasaearth/videos/10155187938052139" type="video" height="500" width="500" locale="bn_IN" >}}
+
+{{< fb "https://www.facebook.com/zuck/posts/10102735452532991?comment_id=1070233703036185" "comment" "100" >}} -->
+
+<!-- {{< adsense slot="123456" >}}
+
+
+{{< gif
+    alt="Amperage GIF demo"
+    src="/images/my.gif"
+    width="1367"
+    height="1112"
+    layout="responsive"
+    >}}
+
+{{< gif "/images/my.gif" >}} 
+
+![](/images/my.gif)
+
+-->
+
+<!-- ![](https://upload.wikimedia.org/wikipedia/commons/6/6a/Koala-ag1.jpg "Wallpapesr") -->
+
+
+{{<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Koala-ag1.jpg" width="1000" height="600" layout="responsive" caption="koala">}}
+
+<!--
+
+
+{{< audio src="https://ia801402.us.archive.org/16/items/EDIS-SRP-0197-06/EDIS-SRP-0197-06.mp3" mp3="https://ia801402.us.archive.org/16/items/EDIS-SRP-0197-06/EDIS-SRP-0197-06.mp3" ogg="//sample.ogg.fallback.ogg" loop="true" muted="true" >}}   
+
+{{< audio "https://ia801402.us.archive.org/16/items/EDIS-SRP-0197-06/EDIS-SRP-0197-06.mp3" >}} -->
+
+<!-- {{< video
+    src="/images/test.webm"
+    poster="/images/koala-cover.jpg"
+    width="480"
+    height="270"
+    layout="responsive"
+    controls="true"
+    autoplay="true"
+    muted="true"
+    loop="true"
+    source="" >}} -->
+
+         
+<!-- {{< soundcloud  playlist="331919427" height="450">}} -->
+
+
+
+## Headings
 
 {{% toc %}}
 
-## Primer título ✨
 
- Donec ultricies turpis eget dui cursus, sed laoreet lacus tincidunt. Aenean at massa nisl. Pellentesque in erat fermentum, sodales quam id, pellentesque mi. Ut dictum, libero eget lobortis lacinia, neque nisi convallis odio, ut rutrum velit risus quis dolor. Quisque congue congue erat ut molestie. In varius pharetra nunc, nec fermentum enim pharetra ut. Duis ullamcorper at lorem sit amet consequat. Sed nec metus dignissim, commodo ex quis, laoreet tellus. Integer sit amet tempor risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan sagittis diam. Vestibulum metus lorem, fringilla vitae lacinia eget, ullamcorper eget dolor.
+<!-- ![Hello World](/images/share-banner.png "Caption") -->
 
-### Subsección
 
-Aliquam sed dolor ut magna elementum accumsan. Etiam feugiat turpis eu lectus dapibus ultrices. Integer eget tortor neque. Mauris molestie consectetur hendrerit. Aliquam dignissim rutrum risus nec ornare. Sed sollicitudin est sem, sed maximus mi porta vel. Donec ullamcorper nisi vitae sem laoreet, in convallis mi fermentum.
+{{% post-it title="Warning! 🚨" %}}
+Hong Kong Phooey, number one super guy. **Hong Kong Phooey**, quicker than the human eye. He’s got style, *a groovy style*, and a car that just won’t stop.
+{{% / post-it %}}
 
-## Segundo título 💥
 
-Sed in ligula eget massa fermentum pharetra. Nam volutpat urna sed volutpat mattis. Vestibulum aliquet odio eget mauris tincidunt dapibus. Cras tortor mi, interdum et varius nec, finibus eget risus. Aliquam non euismod leo. Curabitur lobortis, nisl quis vehicula sagittis, nisl nunc hendrerit enim, nec lacinia eros erat et ligula. Aliquam in vestibulum nisi. Nunc quam justo, fringilla ac ipsum sit amet, tempus ultricies purus. Pellentesque ultricies, magna et interdum semper, dolor ante posuere urna, a dignissim leo velit feugiat erat. Ut facilisis, quam vel varius vehicula, elit ligula hendrerit velit, non malesuada turpis felis vel leo. Etiam commodo diam vel tellus imperdiet finibus. Integer eget nibh et tortor hendrerit malesuada. Suspendisse fermentum, turpis at luctus placerat, lorem tellus ultrices ante, et elementum lacus mi ac erat. Donec ac pulvinar arcu, vel volutpat est. Fusce suscipit suscipit sapien eu condimentum.
+The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
 
-Donec viverra nunc quis tortor suscipit luctus. Phasellus at tellus ut lectus pulvinar ultricies quis eu dolor. Nunc dapibus elementum tristique. In aliquam arcu ut malesuada feugiat. Aenean euismod lectus ut viverra dictum. Ut at nisl ac tellus porta tincidunt et vel sapien. Donec tempus facilisis dignissim. Morbi vel mauris in neque sagittis feugiat. Proin mollis lorem orci, accumsan vestibulum leo pharetra id. Donec convallis diam ut dolor vulputate, ut consequat neque volutpat. Fusce posuere elementum elit quis sollicitudin. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed pulvinar iaculis enim et pellentesque. Quisque sed tempus purus. Etiam eget finibus metus. Donec eget nisl varius, porta orci eget, lacinia ipsum.
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+<h4> Hello H@</h4>
+
+## Paragraph
+
+Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+
+Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+
+## Blockquotes
+
+The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+
+#### Blockquote without attribution
+
+> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+> **Note** that you can use *Markdown syntax* within a blockquote.
+
+#### Blockquote with attribution
+
+> Don't communicate by sharing memory, share memory by communicating.</p>
+> — <cite>Rob Pike[^1]</cite>
+
+
+[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+
+## Tables
+
+Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
+
+   Name | Age
+--------|------
+    Bob | 27
+  Alice | 23
+
+#### Inline Markdown within tables
+
+| Inline&nbsp;&nbsp;&nbsp;     | Markdown&nbsp;&nbsp;&nbsp;  | In&nbsp;&nbsp;&nbsp;                | Table      |
+| ---------- | --------- | ----------------- | ---------- |
+| *italics*  | **bold**  | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code`     |
+
+## Code Blocks
+
+#### Code block with backticks
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Example HTML5 Document</title>
+    </head>
+    <body>
+        <p>Test</p>
+    </body>
+</html>
+```
+
+#### Code block with Hugo's internal highlight shortcode
+
+{{< highlight html >}}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Example HTML5 Document</title>
+    </head>
+    <body>
+        <p>Test</p>
+    </body>
+</html>
+{{< /highlight >}}
+
+{{< highlight python >}}
+
+import os
+
+for i in range(10):
+    print(i)
+
+def pal():
+    print("hello")
+
+{{< /highlight >}}
+
+
+
+
+## List Types
+
+#### Ordered List
+
+1. First item
+2. Second item
+3. Third item
+
+#### Unordered List
+
+* List item
+* Another item
+* And another item
+
+#### Nested list
+
+* Item
+  * First Sub-item
+  * Second Sub-item
+
+## Other Elements — abbr, sub, sup, kbd, mark
+
+<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+
+H<sub>2</sub>O
+
+X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
+
+Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
+
+Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.

@@ -22,7 +22,6 @@ keywords = ['nature', 'animals']
     homepage = "/"
     bio = "I am Palash Bauri. I am a Student , Programmer , Inventor , Writer."
     image = "/palash.jpg"
-
 [image]
     src = "/images/koala-cover.jpg"    
 
@@ -38,4 +37,4 @@ keywords = ['nature', 'animals']
 
 {{< under-title >}}
 
-{{< yt video="t6rHHnABoT8" autoplay="true" width="16" height="9" controls="1" >}}
+{{< yt video="t6rHHnABoT8" width="16" height="9" controls="1" >}}

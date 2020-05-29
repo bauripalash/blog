@@ -8,7 +8,7 @@ theme = "plamp"
 pygmentsUseClasses = true
 
 # Number of posts shown per page (dafault: 10)
-paginate = 4
+paginate = 2
 disableHugoGeneratorInject = true
 enableEmoji = true
 enableInlineShortcodes = true
@@ -57,7 +57,7 @@ enableInlineShortcodes = true
     #adsensePublisher = "ca-pub-123456789"
 
     # Comments Iframe URL
-    #commentsEmbedUrl = "https://comments.example.com"
+    commentsEmbedUrl = "https://comments.example.com"
 
     # Social sites for metatags
     facebookSite = "bauripalash"
@@ -79,6 +79,7 @@ enableInlineShortcodes = true
     authorHomepage = "/"
     authorImage = "/android-chrome-192x192.png"
     authorBio = "I am Palash Bauri. I am a Student , Programmer , Inventor , Writer."
+    aboutPage = "https://palashbauri.in/about"
 
 [markup]
     [markup.goldmark]
