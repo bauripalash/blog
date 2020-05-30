@@ -57,7 +57,7 @@ enableInlineShortcodes = true
     #adsensePublisher = "ca-pub-123456789"
 
     # Comments Iframe URL
-    commentsEmbedUrl = "https://comments.example.com"
+    commentsEmbedUrl = "https://blog_comments.palashbauri.in"
 
     # Social sites for metatags
     facebookSite = "bauripalash"
