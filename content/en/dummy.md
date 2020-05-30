@@ -9,12 +9,14 @@ description = "Dummy Article"
 
 summary = "Dummy Article"
 
+nocomment = true
+
 tags = ['dummy']
 
 keywords = ['dummy']
 
 [amp]
-    elements = []
+    elements = ["amp-mathml" , "amp-twitter"]
 
 [author]
     name = "Palash Bauri"
@@ -35,6 +37,12 @@ keywords = ['dummy']
 {{< under-title >}}
 
 Dummy Article
+
+{{<math>}}
+\[a^2 = {b^2 + c^2 \over x+2^x}.\]
+{{</math>}}
+
+{{< twitter tweet="1260771001530490886" >}}
 
 
 
