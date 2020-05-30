@@ -1,7 +1,7 @@
 # Default language if you have a multi-language setup
 DefaultContentLanguage = "bn"
 
-baseURL = "https://sad-kalam-23de7b.netlify.app"
+baseURL = "https://blog.palashbauri.in"
 
 theme = "plamp"
 
