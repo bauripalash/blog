@@ -81,6 +81,10 @@ enableInlineShortcodes = true
     authorBio = "I am Palash Bauri. I am a Student , Programmer , Inventor , Writer."
     aboutPage = "https://palashbauri.in/about"
 
+    fb_profile = "https://facebook.com/bauripalash"
+    instagram_profile = "https://instagram.com/bauripalash"
+    twitter_profile = "https://twitter.com/bauripalash"
+
 [markup]
     [markup.goldmark]
         [markup.goldmark.renderer]
