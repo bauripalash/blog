@@ -1,4 +1,4 @@
-## gif : amp-anim =>
+## gif : amp-anim
 
 * Detailed : 
 ```
