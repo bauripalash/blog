@@ -37,39 +37,55 @@ fields:
   - type: text
     name: name
     label: name
+    default: Palash Bauri
   - type: text
     name: homepage
     label: homepage
+    default: https://palashbauri.in
   - type: text
     name: bio
     label: bio
-  - type: file
-    name: image
+    default: I am Palash Bauri. I am a Student , Programmer , Inventor , Writer.
+  - name: image
+    type: text
+    config:
+      required: false
     label: image
+    default: "/palash.jpg"
 - type: field_group
   name: image
-  label: image
   fields:
   - type: file
     name: src
     label: src
+  - name: size
+    type: text
+    config:
+      required: false
+    label: size
+    default: 1200x600
+  label: Cover Image
 - type: field_group
   name: twitter
-  label: twitter
+  label: Twitter
   fields:
   - type: text
     name: site
     label: site
+    default: "@bauripalash"
 - type: field_group
   name: sitemap
-  label: sitemap
+  label: Sitemap Config
   fields:
   - type: text
     name: changefreq
     label: changefreq
+    default: monthly
   - type: number
     name: priority
     label: priority
+    default: 0.5
   - type: text
     name: filename
     label: filename
+    default: sitemap.xml
