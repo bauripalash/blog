@@ -11,12 +11,12 @@ sections:
   match: "*"
 - type: directory
   path: content/en
-  label: En
+  label: English Articles
   create: all
   match: "**/*"
 - type: directory
   path: content/bn
-  label: Bn
+  label: Bengali Articles
   create: all
   match: "**/*"
 upload_dir: static/uploads
