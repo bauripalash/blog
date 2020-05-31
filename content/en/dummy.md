@@ -1,7 +1,7 @@
 +++
 draft = false
-date = "2019-09-16T12:33:32+02:00"
-publishdate = "2019-09-16T12:33:32+02:00"
+date = "2019-09-16T12:33:32+05:30"
+publishdate = "2019-09-16T12:33:32+05:30"
 
 title = "Dummy Article"
 
