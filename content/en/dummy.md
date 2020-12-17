@@ -34,15 +34,10 @@ keywords = ['dummy']
   filename = "sitemap.xml"
 +++
 
-{{< under-title >}}
 
 Dummy Article
 
-{{<math>}}
-\[a^2 = {b^2 + c^2 \over x+2^x}.\]
-{{</math>}}
 
-{{< twitter tweet="1260771001530490886" >}}
 
 
 
