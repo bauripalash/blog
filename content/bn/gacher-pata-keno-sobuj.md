@@ -28,7 +28,7 @@ tags = ['nature' , 'physics']
     image = "/palash.jpg"
 
 [image]
-    src = "/images/gpks.png"    
+    src = "https://1.bp.blogspot.com/-x-DC87puMpI/YCAAN_iYgDI/AAAAAAAAJ4Q/ZL9D_O4wf5so5PvVJtXnij0UVdb1y8qfwCLcBGAsYHQ/s320/Michelangelo_-_Creation_of_Adam_%2528cropped%2529.jpeg"    
 
 [twitter]
     site = "@bauripalash"
